@@ -1,0 +1,26 @@
+# Task: Hangman Multiplayer
+
+- [ ] Project Setup <!-- id: 0 -->
+    - [ ] Initialize monorepo structure (npm workspaces) <!-- id: 1 -->
+    - [ ] Set up `packages/shared` <!-- id: 2 -->
+    - [ ] Set up `apps/web` (Vue 3 + Vite) <!-- id: 3 -->
+    - [ ] Set up `apps/realtime` (Worker + DO) <!-- id: 4 -->
+- [ ] Shared Package Implementation <!-- id: 5 -->
+    - [ ] Define Game Types and Protocols <!-- id: 6 -->
+    - [ ] Implement Validation Schemas (Zod) <!-- id: 7 -->
+- [ ] Backend Development (Cloudflare Worker) <!-- id: 8 -->
+    - [ ] Google Auth Handler <!-- id: 9 -->
+    - [ ] Game Creation API <!-- id: 10 -->
+    - [ ] Durable Object Room Logic <!-- id: 11 -->
+    - [ ] WebSocket Handling & State Management <!-- id: 12 -->
+    - [ ] Game Logic & Timer (Server authoritative) <!-- id: 13 -->
+- [ ] Frontend Development (Vue 3) <!-- id: 14 -->
+    - [ ] Design System & Tailwind/CSS Setup <!-- id: 15 -->
+    - [ ] Google Login Integration <!-- id: 16 -->
+    - [ ] Game Creation & Join Views <!-- id: 17 -->
+    - [ ] Game Room & Realtime Sync <!-- id: 18 -->
+    - [ ] Hangman UI & Animations <!-- id: 19 -->
+    - [ ] Summary Dashboard <!-- id: 20 -->
+- [ ] Deployment & Verification <!-- id: 21 -->
+    - [ ] Wrangler Configuration <!-- id: 22 -->
+    - [ ] Final Testing (Single & Multiplayer) <!-- id: 23 -->
